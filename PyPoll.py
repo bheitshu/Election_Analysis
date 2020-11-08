@@ -13,7 +13,6 @@ with open(file_to_load) as election_data:
     # Read and print the header row.
     headers = next(file_reader)
     print(headers)
-git status
 # 1. The total number of votes cast
 # 2. A complete list of candidates who received votes
 #3. The percentage of votes each candiate wom
